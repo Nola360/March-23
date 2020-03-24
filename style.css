@@ -44,7 +44,49 @@ body {
   transition: all 0.2s linear;
 }
 
-.accordion_wrap ul li .accordion_items:hover {
+.accordion_wrap ul li .accordion_items:hover,
+.accordion_wrap ul li.active .accordion_items {
   background: #a48d2d;
   border-right: 1px solid #edc856;
+}
+
+.accordion_wrap ul li:first-child .accordion_items {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;  
+}
+
+.accordion_wrap ul li:last-child .accordion_items {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.accordion_wrap ul li .icon {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(192, 154, 48);
+  font-size: 3rem;
+}
+
+.accordion_items .icon:hover {
+  color: #fff;
+}
+
+.accordion_wrap ul li {
+  display: flex;
+}
+
+.accordion_menu {
+  width: 0;
+  height: 175px;
+  background: #fffaeb;
+  color: #a48d2d;
+  overflow: hidden;
+  transition: width .3s ease-in-out;
+}
+
+.accordion_menu.active {
+  width: 250px;
+  transition: all .3s ease-in-out;
 }
