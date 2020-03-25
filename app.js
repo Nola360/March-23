@@ -5,70 +5,82 @@ const ul = document.querySelector('ul')
 for (let i = 0; i < icons.length; i++) {
   icons[i].addEventListener('click', () => {
 
+    // if (i == 0 || i == 1 || i == 2 || i == 3 || i == 4 || i == 5) {
+    //   icons[i].classList.add('active');
+    // } else if (i >= 0) {
+    //   icons[i].classList.remove('active');
+    // }
+
+    // console.log(icons);
+
+
+
     switch (i) {
+      // case 0:
+      // case 1:
+      // case 2:
+      // case 3:
+      // case 4:
+      // case 5:
+      //   icons[i].classList.add('active');
+      //   break;
+      // case 0:
+      //   icons[0].classList.remove('active');
+
+
+
+
+
       case 0:
+        icons[0].classList.add('active');
+        icons[1].classList.remove('active');
+        icons[2].classList.remove('active');
+        icons[3].classList.remove('active');
+        icons[4].classList.remove('active');
+        icons[5].classList.remove('active');
+        break;
       case 1:
+        icons[0].classList.remove('active');
+        icons[1].classList.add('active');
+        icons[2].classList.remove('active');
+        icons[3].classList.remove('active');
+        icons[4].classList.remove('active');
+        icons[5].classList.remove('active');
+        break;
       case 2:
+        icons[0].classList.remove('active');
+        icons[1].classList.remove('active');
+        icons[2].classList.add('active');
+        icons[3].classList.remove('active');
+        icons[4].classList.remove('active');
+        icons[5].classList.remove('active');
+        break;
       case 3:
+        icons[0].classList.remove('active');
+        icons[1].classList.remove('active');
+        icons[2].classList.remove('active');
+        icons[3].classList.add('active');
+        icons[4].classList.remove('active');
+        icons[5].classList.remove('active');
+        break;
       case 4:
+        icons[0].classList.remove('active');
+        icons[1].classList.remove('active');
+        icons[2].classList.remove('active');
+        icons[3].classList.remove('active');
+        icons[4].classList.add('active');
+        icons[5].classList.remove('active');
+        break;
       case 5:
-        icons[i].classList.add('active');
+        icons[0].classList.remove('active');
+        icons[1].classList.remove('active');
+        icons[2].classList.remove('active');
+        icons[3].classList.remove('active');
+        icons[4].classList.remove('active');
+        icons[5].classList.add('active');
         break;
 
-
-
     }
-
-    //   case 0:
-    //     icons[0].classList.add('active');
-    //     icons[1].classList.remove('active');
-    //     icons[2].classList.remove('active');
-    //     icons[3].classList.remove('active');
-    //     icons[4].classList.remove('active');
-    //     icons[5].classList.remove('active');
-    //     break;
-    //   case 1:
-    //     icons[0].classList.remove('active');
-    //     icons[1].classList.add('active');
-    //     icons[2].classList.remove('active');
-    //     icons[3].classList.remove('active');
-    //     icons[4].classList.remove('active');
-    //     icons[5].classList.remove('active');
-    //     break;
-    //   case 2:
-    //     icons[0].classList.remove('active');
-    //     icons[1].classList.remove('active');
-    //     icons[2].classList.add('active');
-    //     icons[3].classList.remove('active');
-    //     icons[4].classList.remove('active');
-    //     icons[5].classList.remove('active');
-    //     break;
-    //   case 3:
-    //     icons[0].classList.remove('active');
-    //     icons[1].classList.remove('active');
-    //     icons[2].classList.remove('active');
-    //     icons[3].classList.add('active');
-    //     icons[4].classList.remove('active');
-    //     icons[5].classList.remove('active');
-    //     break;
-    //   case 4:
-    //     icons[0].classList.remove('active');
-    //     icons[1].classList.remove('active');
-    //     icons[2].classList.remove('active');
-    //     icons[3].classList.remove('active');
-    //     icons[4].classList.add('active');
-    //     icons[5].classList.remove('active');
-    //     break;
-    //   case 5:
-    //     icons[0].classList.remove('active');
-    //     icons[1].classList.remove('active');
-    //     icons[2].classList.remove('active');
-    //     icons[3].classList.remove('active');
-    //     icons[4].classList.remove('active');
-    //     icons[5].classList.add('active');
-    //     break;
-
-    // }
 
 
 
