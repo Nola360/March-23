@@ -86,7 +86,28 @@ body {
   transition: width .3s ease-in-out;
 }
 
-.accordion_menu.active {
+.walk.active .accordion_menu{
+  width: 250px;
+  transition: all .3s ease-in-out;
+}
+.bicycle.active .accordion_menu{
+  width: 250px;
+  transition: all .3s ease-in-out;
+}
+.bike.active .accordion_menu{
+  width: 250px;
+  transition: all .3s ease-in-out;
+}
+.car.active .accordion_menu{
+  width: 250px;
+  transition: all .3s ease-in-out;
+}
+
+.train.active .accordion_menu {
+  width: 250px;
+  transition: all .3s ease-in-out;
+}
+.airplane.active .accordion_menu {
   width: 250px;
   transition: all .3s ease-in-out;
 }
